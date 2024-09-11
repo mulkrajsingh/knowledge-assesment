@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
 
 const Navbar = () => {
   return (
-    <section className="w-screen h-14 py-2 px-4 fixed top-0 left-0 flex items-center justify-center backdrop-blur-md">
-      Knowledge Addessment
+    <section className="fixed left-0 top-0 z-30 flex h-14 w-screen items-center justify-center bg-black/50 backdrop-blur-md">
+      <span className="bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text px-4  py-2 font-bold text-transparent">
+        Knowledge Assessment
+      </span>
     </section>
   );
 };
